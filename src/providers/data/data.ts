@@ -10,6 +10,7 @@ export class DataProvider {
 
   getData(){
     return this.storage.get('todos');
+    
   }
 
   save(data){
